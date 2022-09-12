@@ -23,7 +23,7 @@ def getExcel():
             if msg.SenderEmailType == 'EX':
                 pass
             else:
-                if msg.SenderEmailAddress == "viniciusventura29@icloud.com" and msg.Subject == "Atualização excel LME":
+                if msg.SenderEmailAddress == "Campinas.ETS@br.bosch.com" and msg.Subject == "Atualização do excel do LME":
                     
                     attachments = msg.Attachments
                     attachment = attachments.Item(1)
